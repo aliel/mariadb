@@ -164,6 +164,8 @@ default['mariadb']['install']['prefer_os_package'] = false
 default['mariadb']['use_default_repository'] = false
 default['mariadb']['apt_repository']['base_url'] = \
   'ftp.igh.cnrs.fr/pub/mariadb/repo'
+default['mariadb']['apt_repository']['keyserver'] = 'keyserver.ubuntu.com'
+default['mariadb']['apt_repository']['key'] = 'F1656F24C74CD1D8'
 
 #
 # MariaDB Plugins enabling
